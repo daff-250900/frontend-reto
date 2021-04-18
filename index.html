@@ -1,0 +1,139 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tu lista de películas</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&family=Quicksand:wght@500&family=Raleway:wght@300&family=RocknRoll+One&family=Montserrat:wght@600&family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="principal">
+      <div class="titulo">
+        <h1>Crea tu lista de peliculas</h1>
+	<img src="img/popcorn.png" width=70px height=70px />
+      </div>
+      <div class="introduccion">
+         Aqui podras crear una galeria de peliculas por ver en el futuro
+      </div>	
+      <div class="inicio">
+        <form class="formulario">
+       	  <div id="Add">Agrega una pelicula a tu lista</div>	
+    	  <input type="text" id="nombre" name="nombre" placeholder="Nombre de la serie o pelicula" />
+       	  <input type="text" id="url" name="url" placeholder="Sitio donde se encuentra" />
+	  <div class="image-input">
+	    <label style="font-family: 'Montserrat', sans-serif; font-size: 15px;">Inserta la portada de la pelicula</label>
+	    <input type="file" id="file" class="file" />
+	    <label for= "file" class="upload-btn"><img src="img/outline_backup_black_24dp.png" width=30px height=30px  /></label>
+	  </div>
+	  <input type="submit" id="agregar" name="agregar" value="Agregar"/>
+	</form>
+
+	<div class="galeria">
+          
+	  <div class="portada">
+	    <div class="contenedor">
+	      <img src="portadas/love-rosie.jpg"/>
+	      
+	      <div class="overlay">
+		<h2>Love Rosie</h2>
+	        <input type="button" class="btn-visto" value="Visto" />
+              </div>
+	    </div>
+	  </div>
+
+	  <div class="portada">
+	    <div class="contenedor">
+	      <img src="portadas/si-yo-tuviera-30.jpg"/>
+	      
+	      <div class="overlay">
+		<h2>Si yo tuviera 30</h2>
+	        <input type="button" class="btn-visto" value="Visto" />
+              </div>
+	    </div>
+	  </div>
+	  
+	  <div class="portada">
+	    <div class="contenedor">
+	      <img src="portadas/peli3.jpg"/>
+	      
+	      <div class="overlay">
+		<h2>Qué culpa tiene el niño?</h2>
+	        <input type="button" class="btn-visto" value="Visto" />
+              </div>
+	    </div>
+	  </div>
+
+	  <div class="portada">
+	    <div class="contenedor">
+	      <img src="portadas/peli4.jpg"/>
+	      
+	      <div class="overlay">
+		      <h2>El conjuro</h2>
+	        <input type="button" class="btn-visto" value="Visto" />
+              </div>
+	    </div>
+	  </div>
+	  
+	  <div class="portada">
+	    <div class="contenedor">
+	      <img src="portadas/peli5.jpg"/>
+	      
+	      <div class="overlay">
+		      <h2>Nosotros los nobles</h2>
+	        <input type="button" class="btn-visto" value="Visto" />
+              </div>
+	    </div>
+	  </div>
+	  
+	  <div class="portada">
+	    <div class="contenedor">
+	      <img src="portadas/peli6.jpg"/>
+	      
+	      <div class="overlay">
+		<h2>La gran pelea</h2>
+	        <input type="button" class="btn-visto" value="Visto" />
+              </div>
+	    </div>
+	  </div>
+	  
+	  <div class="portada">
+	    <div class="contenedor">
+	      <img src="portadas/peli7.jpg"/>
+	      
+	      <div class="overlay">
+		      <h2>Hasta el viento tiene miedo</h2>
+	        <input type="button" class="btn-visto" value="Visto" />
+              </div>
+	    </div>
+	  </div>
+
+	  <div class="portada">
+	    <div class="contenedor">
+	      <img src="portadas/peli8.jpg"/>
+	      
+	      <div class="overlay">
+		<h2>Shrek</h2>
+	        <input type="button" class="btn-visto" value="Visto" />
+              </div>
+	    </div>
+	  </div>
+
+	  <div class="portada">
+	    <div class="contenedor">
+	      <img src="portadas/peli2.jpg"/>
+	      
+	      <div class="overlay">
+		<h2>Feliz día de tu muerte</h2>
+	        <input type="button" class="btn-visto" value="Visto" />
+              </div>
+	    </div>
+	  </div>
+
+	</div>
+
+      </div>
+    </div> 
+    <script type="text/javascript" src="mainjs.js"></script>
+  </body>
+</html>
